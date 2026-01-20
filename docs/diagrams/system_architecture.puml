@@ -1,0 +1,32 @@
+@startuml
+title AI-NutriCare - System Architecture
+skinparam componentStyle rectangle
+
+package "Frontend" {
+  [Streamlit App]
+}
+
+package "Backend" {
+  [FastAPI API]
+  [Service Layer]
+  [Model Orchestrator]
+}
+
+package "AI / Models" {
+  [BERT Disease Classifier]
+  [GPT Diet Generator]
+}
+
+package "External" {
+  [OpenAI API]
+  [Model Storage]
+}
+
+[Streamlit App] --> [FastAPI API] : HTTP (POST /upload)
+[FastAPI API] --> [Service Layer] : send file
+[Service Layer] --> [Model Orchestrator] : request inference
+[Model Orchestrator] --> [BERT Disease Classifier] : predict
+[Model Orchestrator] --> [GPT Diet Generator] : generate
+[GPT Diet Generator] --> [OpenAI API] : REST call
+[FastAPI API] --> [Model Storage] : load / cache models
+@enduml

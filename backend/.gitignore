@@ -1,0 +1,6 @@
+# Ignore ML models
+backend/app/models/bert_disease_classifier/
+*.safetensors
+*.bin
+*.pt
+*.pkl

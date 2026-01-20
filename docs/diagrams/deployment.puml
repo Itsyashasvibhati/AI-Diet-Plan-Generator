@@ -1,0 +1,25 @@
+@startuml
+title AI-NutriCare - Deployment Overview
+
+cloud "Render" {
+  node "Frontend Service" {
+    [Streamlit Container]
+  }
+  node "Backend Service" {
+    [FastAPI Container]
+    [Worker / Async Queue]
+  }
+  node "Model Volume" {
+    [Model Files (BERT, RF)]
+  }
+}
+
+[Streamlit Container] --> [FastAPI Container] : HTTP (POST/GET)
+[FastAPI Container] --> [Model Files (BERT, RF)] : read / cache
+[FastAPI Container] --> "OpenAI API" : REST (GPT)
+note right of [FastAPI Container]
+  Env vars / Secrets managed by Render
+  Persistent disk for large models
+end note
+
+@enduml

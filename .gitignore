@@ -1,0 +1,217 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Python
+__pycache__/
+venv/
+.env
+
+# ML / Models (IMPORTANT)
+training/models/
+temp_trial_2/
+backend/app/models/bert_disease_classifier/
+*.bin
+*.safetensors
+checkpoint-*/
+# Ignore ML models
+backend/app/models/bert_disease_classifier/
+*.safetensors
+*.bin
+*.pt
+*.pkl
+
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# Model files (large files)
+*.pkl
+*.h5
+*.pb
+*.onnx
+*.joblib
+*.model
+*.weights
+*.pth
+*.pt
+*.safetensors
+*.bin
+
+# Training checkpoints and models
+training/models/
+temp_trial_2/
+backend/app/models/bert_disease_classifier/checkpoint-*/
+backend/app/models/bert_disease_classifier/*.safetensors
+backend/app/models/bert_disease_classifier/*.bin
+
+# Data files (if not needed)
+data/raw/*.csv
+data/processed/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node modules (if any)
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+.sagemath/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+site/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Large model files
+*.model
+*.pkl
+*.h5
+*.tflite
+*.pb
+*.onnx
+*.joblib
+*.weights
+*.pth
+*.pt
+*.safetensors
+*.bin
+*.ckpt
+*.checkpoint

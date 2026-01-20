@@ -1,0 +1,25 @@
+@startuml
+title AI-NutriCare - Upload & Processing Sequence
+actor User
+participant "Streamlit\nFrontend" as Frontend
+participant "FastAPI\nBackend" as Backend
+participant "OCR Service" as OCR
+participant "Parser Service" as Parser
+participant "BERT Model" as BERT
+participant "GPT Service" as GPT
+
+User -> Frontend: Upload medical report (PDF/JPG/PNG)
+Frontend -> Backend: POST /upload (multipart/form-data)
+Backend -> Backend: Validate file & store (temp)
+Backend -> OCR: Extract text from document
+OCR --> Backend: clean_text
+Backend -> Parser: Extract biomarkers & patient info
+Parser --> Backend: biomarkers_json
+Backend -> BERT: Classify conditions (inference)
+BERT --> Backend: condition_probabilities
+Backend -> GPT: Generate diet plan (prompt with context)
+GPT --> Backend: diet_plan_text
+Backend -> Frontend: JSON response (biomarkers, conditions, diet_plan)
+Frontend -> User: Display results (tabs, charts, download)
+
+@enduml

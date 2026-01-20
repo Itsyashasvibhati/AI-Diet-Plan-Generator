@@ -1,0 +1,12 @@
+transformers
+torch
+protobuf
+fastapi
+uvicorn
+pandas
+scikit-learn
+joblib
+pytesseract
+pdfplumber
+Pillow
+pdf2image
