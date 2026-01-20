@@ -29,8 +29,7 @@
 
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/fb757874ddab7a8c5c8006a3b7ba24bfde11fb62/Screenshot%202026-01-19%20104509.png)
 
-```
----
+
 
 
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/85152998686ee4e34346aa7f630ffb78444aa06f/Screenshot%202026-01-19%20104542.png)
@@ -44,7 +43,6 @@
 
 
 
-```
 
 
 
@@ -57,12 +55,12 @@
 - **Nutritional Balance**: Macronutrient distribution
 - **Condition-Specific**: Tailored to medical needs
 
----
+
 
 
 ## 📁 **Project Structure**
 
-```
+
 AI-Diet-Plan-Generator/
 ├── backend/                          # FastAPI backend
 │   ├── app/
@@ -95,9 +93,9 @@ AI-Diet-Plan-Generator/
 └── scripts/                        # Utility scripts
     ├── create_nutrition_guidelines.py
     └── extract_numeric.py
-```
 
----
+
+
 
 ## 🔧 **Setup & Deployment**
 
