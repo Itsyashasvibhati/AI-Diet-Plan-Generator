@@ -54,12 +54,18 @@
 
 AI-Diet-Plan-Generator/
 
-├── backend/                          # FastAPI backend
+├── backend/   
+# FastAPI backend
 │   ├── app/
-│   │   ├── main.py                   # FastAPI application
-│   │   ├── config.py                 # Configuration management
-│   │   ├── models/                   # Pydantic models
-│   │   ├── routes/                   # API endpoints
+
+│   │   ├── main.py 
+# FastAPI application
+│   │   ├── config.py   
+# Configuration management
+│   │   ├── models/    
+# Pydantic models
+│   │   ├── routes/   
+# API endpoints
 │   │   │   ├── upload.py            # File upload endpoint
 │   │   │   ├── diet.py              # Diet plan routes
 │   │   │   └── predict.py           # Prediction routes
@@ -89,11 +95,13 @@ AI-Diet-Plan-Generator/
 ,,,
 
 Data Flow Diagram(Level 0)
+
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/a66fc156e055b6e86922f1084c21cc60488d4301/DFDlevel0.png)
 
 
 Data Flow Diagram(Level 1)
-![image]()
+
+![image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/dbaed0c07900f7adf1fb2d56fd8b51561728e122/DFDlevel1.png)
 
 
 ## 🔧 **Setup & Deployment**
