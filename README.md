@@ -50,8 +50,10 @@
 
 ## 📁 **Project Structure**
 
-...
+
+
 AI-Diet-Plan-Generator/
+
 ├── backend/                          # FastAPI backend
 │   ├── app/
 │   │   ├── main.py                   # FastAPI application
@@ -85,6 +87,13 @@ AI-Diet-Plan-Generator/
     └── extract_numeric.py
 
 ,,,
+
+Data Flow Diagram(Level 0)
+![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/a66fc156e055b6e86922f1084c21cc60488d4301/DFDlevel0.png)
+
+
+Data Flow Diagram(Level 1)
+![image]()
 
 
 ## 🔧 **Setup & Deployment**
