@@ -60,7 +60,7 @@
 
 ## 📁 **Project Structure**
 
-
+...
 AI-Diet-Plan-Generator/
 ├── backend/                          # FastAPI backend
 │   ├── app/
@@ -94,7 +94,7 @@ AI-Diet-Plan-Generator/
     ├── create_nutrition_guidelines.py
     └── extract_numeric.py
 
-
+,,,
 
 
 ## 🔧 **Setup & Deployment**
