@@ -40,22 +40,12 @@
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/103464c1e3aef5eedd2425d3c8defb6cad4b1af4/flowdiagram.png)
 
 
-
-
-
-
-
-
-
-
 **Output Structure**:
 
 - **7-Day Plan**: Breakfast, Lunch, Dinner, Snacks
 - **Portion Control**: Specific quantities
 - **Nutritional Balance**: Macronutrient distribution
 - **Condition-Specific**: Tailored to medical needs
-
-
 
 
 ## 📁 **Project Structure**
