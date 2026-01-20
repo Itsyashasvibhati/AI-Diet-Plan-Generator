@@ -62,6 +62,8 @@ st.set_page_config(
 
 ---
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/fb757874ddab7a8c5c8006a3b7ba24bfde11fb62/Screenshot%202026-01-19%20104509.png)
+
+![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/85152998686ee4e34346aa7f630ffb78444aa06f/Screenshot%202026-01-19%20104542.png)
 ## 🔧 **Backend Architecture & Model Training**
 
 ### **📚 Libraries Used**
