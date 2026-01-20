@@ -26,8 +26,8 @@
 - **Python-dotenv** (`python-dotenv==1.0.0`): Environment variable management
 
 ### **🎯 Key Frontend Functions & Features**
-![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/0924d4d19b566e995bb8f820843233ba36f86d3f/Screenshot%202026-01-19%20104447.png)
 
+![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/fb757874ddab7a8c5c8006a3b7ba24bfde11fb62/Screenshot%202026-01-19%20104509.png)
 #### **Page Configuration**
 
 ```python
@@ -61,9 +61,11 @@ st.set_page_config(
 - **Diet Plan Rendering**: Markdown-based meal plan display
 
 ---
-![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/fb757874ddab7a8c5c8006a3b7ba24bfde11fb62/Screenshot%202026-01-19%20104509.png)
+
 
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/85152998686ee4e34346aa7f630ffb78444aa06f/Screenshot%202026-01-19%20104542.png)
+
+![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/bf0d84b009d881e17b9b142400c02e24aa234edc/Screenshot%202026-01-19%20104600.png)
 ## 🔧 **Backend Architecture & Model Training**
 
 ### **📚 Libraries Used**
