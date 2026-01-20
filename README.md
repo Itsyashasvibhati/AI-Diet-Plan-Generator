@@ -12,7 +12,7 @@
 
 ### **📚 Libraries Used**
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/cce2ac6aae3d2ca1a7b1f2c8c128ca9aea5f4d68/Screenshot%202026-01-19%20104425.png)
-
+### **📚 Libraries Used**
 #### **Primary Framework**
 
 - **Streamlit** (`streamlit==1.28.1`): Main web framework for building the interactive UI
@@ -26,6 +26,7 @@
 - **Python-dotenv** (`python-dotenv==1.0.0`): Environment variable management
 
 ### **🎯 Key Frontend Functions & Features**
+![Image]()
 
 #### **Page Configuration**
 
