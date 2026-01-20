@@ -68,6 +68,8 @@ st.set_page_config(
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/bf0d84b009d881e17b9b142400c02e24aa234edc/Screenshot%202026-01-19%20104600.png)
 ## 🔧 **Backend Architecture & Model Training**
 
+![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/103464c1e3aef5eedd2425d3c8defb6cad4b1af4/flowdiagram.png)
+
 ### **📚 Libraries Used**
 
 #### **Web Framework**
