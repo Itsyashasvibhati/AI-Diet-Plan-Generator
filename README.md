@@ -40,6 +40,8 @@
 ![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/103464c1e3aef5eedd2425d3c8defb6cad4b1af4/flowdiagram.png)
 
 
+![image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/96963519a1b1ba392e5ad0bc0f10b875209404c6/sequencesDiagram.png)
+
 **Output Structure**:
 
 - **7-Day Plan**: Breakfast, Lunch, Dinner, Snacks
