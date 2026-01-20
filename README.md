@@ -61,7 +61,7 @@ st.set_page_config(
 - **Diet Plan Rendering**: Markdown-based meal plan display
 
 ---
-
+![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/fb757874ddab7a8c5c8006a3b7ba24bfde11fb62/Screenshot%202026-01-19%20104509.png)
 ## 🔧 **Backend Architecture & Model Training**
 
 ### **📚 Libraries Used**
