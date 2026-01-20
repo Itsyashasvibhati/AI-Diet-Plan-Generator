@@ -51,12 +51,12 @@
 ## 📁 **Project Structure**
 
 AI-Diet-Plan-Generator/
-├── backend/                        # FastAPI backend
+├── backend/                          # FastAPI backend
 │   ├── app/
-│   │   ├── main.py                  # FastAPI application
-│   │   ├── config.py                # Configuration management
-│   │   ├── models/                  # Pydantic models
-│   │   ├── routes/                  # API endpoints
+│   │   ├── main.py                   # FastAPI application
+│   │   ├── config.py                 # Configuration management
+│   │   ├── models/                   # Pydantic models
+│   │   ├── routes/                   # API endpoints
 │   │   │   ├── upload.py            # File upload endpoint
 │   │   │   ├── diet.py              # Diet plan routes
 │   │   │   └── predict.py           # Prediction routes
