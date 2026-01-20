@@ -26,7 +26,7 @@
 - **Python-dotenv** (`python-dotenv==1.0.0`): Environment variable management
 
 ### **🎯 Key Frontend Functions & Features**
-![Image]()
+![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/0924d4d19b566e995bb8f820843233ba36f86d3f/Screenshot%202026-01-19%20104447.png)
 
 #### **Page Configuration**
 
