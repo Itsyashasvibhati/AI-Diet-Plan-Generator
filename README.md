@@ -11,6 +11,7 @@
 ## 🎨 **Frontend Architecture & Design**
 
 ### **📚 Libraries Used**
+![Image](https://github.com/Itsyashasvibhati/AI-Diet-Plan-Generator/blob/cce2ac6aae3d2ca1a7b1f2c8c128ca9aea5f4d68/Screenshot%202026-01-19%20104425.png)
 
 #### **Primary Framework**
 
