@@ -50,6 +50,8 @@
 
 ## 📁 **Project Structure**
 
+
+```
 AI-Diet-Plan-Generator/
 ├── backend/                          # FastAPI backend
 │   ├── app/
@@ -82,8 +84,11 @@ AI-Diet-Plan-Generator/
 └── scripts/                        # Utility scripts
     ├── create_nutrition_guidelines.py
     └── extract_numeric.py
+```
 
-,,,
+---
+
+
 
 Data Flow Diagram(Level 0)
 
