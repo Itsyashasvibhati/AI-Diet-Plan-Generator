@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+__pycache__/
+*.pt
+*.pkl
+*.safetensors
+*.bin
+data/
+training/models/
+app/models/
+
+# ML models & checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.pkl
+checkpoint-*/
+models/
+app/models/
+
+# Datasets
+data/
+training/data/
+*.csv
+*.pdf
+
+# Logs
+*.log
