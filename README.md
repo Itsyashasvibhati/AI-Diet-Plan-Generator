@@ -172,3 +172,7 @@ This project demonstrates expertise in:
 
 ---
 
+⭐ Support
+
+If you like this project, don’t forget to ⭐ star the repository!
+
